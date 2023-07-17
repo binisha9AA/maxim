@@ -10,6 +10,9 @@
   background: white;
   transform: translate(-50%, -50%);
 }
+#maincontent > div.columns > div > div.home-main-banner > div {
+  max-width: unset !important;
+}
 /*hero slider next button*/
 #maincontent
   > div.columns
@@ -73,6 +76,29 @@
   position: static;
   height: 100%;
   object-fit: cover;
+}
+#section-3035-inner-div-lhs > p.h-poppins.h-bold.h-mb-0.h-mt-30:hover {
+  background: #034720;
+}
+#section-3035-inner-div-lhs > p.h-poppins.h-bold.h-mb-0.h-mt-30 > a:hover {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+#section-3065-inner-div-lhs > p:hover {
+  background: #034720;
+}
+#mh-100004:hover {
+  color: white;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+#section-3065-inner-div-rhs > p:hover {
+  background: #034720;
+}
+#mh-100005:hover {
+  color: white;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 /*add to wish list */
 #maincontent
@@ -336,8 +362,8 @@
   > div
   > div
   > button.slick-prev.slick-arrow {
-  width: 40px;
-  height: 50px;
+  width: 50px;
+  height: 55px;
 }
 /*hero slider next button*/
 #maincontent
@@ -347,8 +373,8 @@
   > div
   > div
   > button.slick-next.slick-arrow {
-  width: 40px;
-  height: 50px;
+  width: 50px;
+  height: 55px;
 }
 /* cataglogue form input margin*/
 .fieldset > div > .control {
@@ -377,6 +403,7 @@
   #section-3035-inner-div-lhs > p {
     font-size: 16px;
   }
+
   #section-3035-inner-div-lhs > p.h-poppins.h-bold.h-mb-0.h-mt-30 {
     margin-inline: auto;
     max-width: 350px;
@@ -435,5 +462,33 @@
     > div
     > p.free-charge {
     font-size: 18px;
+  }
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  #maincontent
+    > div.columns
+    > div
+    > div.home-main-banner
+    > div
+    > div
+    > button.slick-next.slick-arrow {
+    width: 40px;
+    height: 50px;
+  }
+  .slick-next:before {
+    font-size: 24px;
+  }
+  .slick-prev:before {
+    font-size: 24px;
+  }
+  #maincontent
+    > div.columns
+    > div
+    > div.home-main-banner
+    > div
+    > div
+    > button.slick-prev.slick-arrow {
+    width: 40px;
+    height: 50px;
   }
 }
