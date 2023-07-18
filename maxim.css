@@ -220,6 +220,7 @@
   height: 35px;
   width: 60px;
 }
+/*qnaitity add button*/
 #product_addtocart_form
   > div
   > div
@@ -229,6 +230,7 @@
   > button {
   padding: 6px 11px;
 }
+/*qnaitity add button*/
 #product_addtocart_form
   > div
   > div
@@ -405,6 +407,7 @@
   margin-bottom: 18px;
 }
 @media (min-width: 300px) and (max-width: 725px) {
+  /*maxim section paragraph*/
   #section-3035-inner-div-lhs > p {
     font-size: 16px;
   }
@@ -452,10 +455,9 @@
   }
   #section-3035-inner-div-lhs > p.h-poppins.h-bold.h-mb-0.h-mt-30 {
     max-width: 300px;
-  }
-  #section-3035-inner-div-lhs > p.h-poppins.h-bold.h-mb-0.h-mt-30 {
     margin-inline: auto;
   }
+
   #section-3035-inner-div-lhs > p.h-poppins.h-bold.h-mb-0.h-mt-30 > a {
     font-size: 16px;
   }
